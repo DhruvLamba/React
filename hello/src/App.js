@@ -1,14 +1,14 @@
 import "./App.css";
-// import Counter from "./components/Counter";
-import Todo from "./components/Todo";
 import React from "react";
+import Navbar from "./components/Navbar";
+import TextForm from "./components/TextForm";
 
 function App() {
   return (
-    <div className="App">
-      {/* <Counter /> */}
-      <Todo />
-    </div>
+    <>
+      <Navbar />
+      <TextForm heading={"Enter your text here"} />
+    </>
   );
 }
 
